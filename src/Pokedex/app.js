@@ -26,7 +26,7 @@ async function insertPokemon() {
       result.push([pokemonInfo , pokemonDataJSON[pokemonInfo]]); // mostramos 
     }
 
-    console.table(result); //! only for development
+    // console.table(result); //! Mostramos la tabla
 
     //Que información vamos a consualtar de API
 
@@ -40,7 +40,7 @@ async function insertPokemon() {
 
     //Nombre de pokemon e ID
     const pokemonName = document.createElement('h2'); // lponemos sobre un h2
-    pokemonName.innerText = `Name: ${result[10][1]} - ID: ${result[6][1]}`; // Mostramos nombre  y ID del pokemon
+    pokemonName.innerText = `Name: ${result[10][1]}  ID: ${result[6][1]}`; // Mostramos nombre  y ID del pokemon
 
     //Tipo de pokemon
     const pokemonType = document.createElement('h2');

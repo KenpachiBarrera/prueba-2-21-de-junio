@@ -91,7 +91,15 @@ async function insertPokemon() {
     appNode.append(...allItems); // Que vamos a mostar 
 
   } catch (error) {
-    alert("se como Ash Ketchum y vuelvelo a intentar."); //error de busqueda
+    alert("That pokemon isn't available. Try againt with another one!"); //error de busqueda
   }
 }
 
+function deletePokemons() {             // eliminamos las busquedas recientes 
+  let allPokemon = appNode.childNodes;
+  allPokemon = Array.from(allPokemon);
+
+  allPokemon.forEach(pokemon => {
+    pokemon.remove(pokemon);
+  });
+}

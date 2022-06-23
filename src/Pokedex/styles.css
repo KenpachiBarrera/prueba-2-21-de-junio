@@ -2,12 +2,8 @@ body {
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
   }
 
- /* Logo Pokémon */
-    .logoPokemonInit {
-        max-width: 300px;
-        margin-left: 430px;
-    }
-    
+  
+
 /* Backgroud Rojo */
   .colorRojo {
     background: red;

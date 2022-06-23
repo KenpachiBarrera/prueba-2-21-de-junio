@@ -1,0 +1,402 @@
+body {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  }
+
+ /* Logo Pokémon */
+    .logoPokemonInit {
+        max-width: 300px;
+        margin-left: 430px;
+    }
+    
+/* Backgroud Rojo */
+  .colorRojo {
+    background: red;
+    height: 675px;
+    width: 525px;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 14px 10px 14px 0 rgba(255, 255, 255, 0.3) inset,
+      -6px -6px 10px 0 rgba(0, 0, 0, 0.25) inset;
+  }
+/* Fondo de color gris */
+  .colorGris {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    height: 300px;
+    width: 450px;
+    padding-top: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.329) . inset,
+      -3px -3px 3px 0 rgba(0, 0, 0, 0.25) inset;
+  }
+  
+/* Color Blanco de fondo */
+  .colorBlanco {
+    background: rgb(218, 239, 255);
+    background: linear-gradient(
+      -45deg,
+      rgba(218, 239, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 45%,
+      rgba(218, 239, 255, 1) 100%
+    );
+    height: 340px;
+    width: 400px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+
+  /* Input de busqueda */
+  .inputBusqueda {
+    margin-top: -60px;
+    margin-left: 20px;
+    height: 30px;
+    width: 230px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #008bbabe;
+    background-color: rgba(233, 233, 233, 0);
+  }
+
+
+/* Boton de busqueda */
+  .buttonBusqueda {
+    align-items: center;
+    background-color: #07faff;
+    height: 80px;
+    width: 80px;
+    margin-top: -55px;
+    margin-left: 270px;
+    border-radius: 100px;
+    border: 8px solid white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+  }
+  
+/* Boton de busqueda */
+.buttonBorrar {
+    align-items: center;
+    background-color: rgb(139,69,19);
+    height: 80px;
+    width: 80px;
+    margin-top: -94px;
+    margin-left: 400px;
+    border-radius: 100px;
+    border: 8px solid white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+  }
+
+  /* Stylos de la card mostrada */
+
+  .pokemonData {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pokemonData .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: var(--pokedex-white);
+    margin-block-end: 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .pokemonData .container:hover {
+    cursor: pointer;
+    background-color: rgb(121, 255, 255);
+  }
+  
+  .pokemonData .container img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .pokemonData .container h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .pokemonData .container .pokemonStatsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  
+  .pokemonData .container .pokemonStatsContainer p {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Botones de busqueda */
+  .main .inputFields,
+  .main .pokemonData {
+    width: 20%;
+  }
+  
+  
+
+  #dexball2 {
+    background: radial-gradient(circle, rgb(255, 129, 129) %, #ff3c38 45%);
+    height: 30px;
+    width: 30px;
+    margin-top: -65px;
+    margin-left: 160px;
+    border-radius: 100px;
+  
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+  }
+  
+  #dexball3 {
+    background: rgb(255, 254, 179);
+    background: radial-gradient(
+      circle,
+      rgba(255, 254, 179, 1) 5%,
+      rgba(251, 239, 76, 1) 45%
+    );
+    height: 30px;
+    width: 30px;
+    margin-top: -33px;
+    margin-left: 210px;
+    border-radius: 100px;
+  
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+  }
+  
+  #dexball4 {
+    background-color: #4ff017;
+    background: radial-gradient(circle, rgb(179, 255, 204) 5%, #4ff017 45%);
+    height: 30px;
+    width: 30px;
+    margin-top: -33px;
+    margin-left: 260px;
+    border-radius: 100px;
+  
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+  }
+  #dexball5 {
+    background-color: #f61f1a;
+    height: 40px;
+    width: 40px;
+    margin-top: -15px;
+    margin-left: 70px;
+    border-radius: 100px;
+  
+    box-shadow: 4px 4px 5px black;
+  }
+  
+
+
+  #cut {
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    margin-top: -90px;
+    transform: rotate(-135deg);
+    margin-left: -3px;
+    border-radius: 10%;
+  }
+  
+  #line1 {
+    height: 5px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: 0px;
+  }
+  #line2 {
+    height: 5px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: -25px;
+  }
+  #line3 {
+    height: 5px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: -25px;
+  }
+  
+ .pokemonName {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #pokemonImg {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: -80px;
+    opacity: 1;
+  }
+  
+  #namePokemon {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  #simbol {
+    height: 35px;
+    padding-left: 10px;
+  }
+  
+  #teste {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #searchButton {
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    align-items: center;
+    margin-top: initial;
+  }
+  
+  #searchButton:hover {
+    background-color: #008bbabe;
+    color: white;
+  }
+  
+ .pokemonName {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #008bbabe;
+    background-color: rgba(233, 233, 233, 0);
+  }
+  #types {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+  }
+  #typesUm {
+    margin-top: -10px;
+    width: 15%;
+  }
+  #typesDois {
+    margin-top: -10px;
+    width: 15%;
+  }
+  
+  #basePokemon {
+    padding-top: 20px;
+    margin-left: 250px;
+    position: relative;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    float: left;
+  }
+  
+  #baseText {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+  }
+  
+  #block {
+    padding-left: 20px;
+  }
+  
+  #baseText {
+    color: rgba(0, 0, 0, 0);
+  }
+  
+  #baseTextdois {
+    color: rgba(0, 0, 0, 0);
+  }
+  
+  .pokedexVector {
+    background-image:  url("/Captura\ de\ Pantalla\ 2022-06-21\ a\ la\(s\)\ 18.44.39.png");
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+  
+    
+  }
+
+
+
+  /* Ponemos los estilos del 2 archivo */
+
+  .main .inputFields {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    margin-block: 0;
+  }
+  
+  .inputFields input {
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .inputFields .buttons img {
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+  }
+
+
+
+

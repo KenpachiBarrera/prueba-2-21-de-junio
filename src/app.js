@@ -26,7 +26,7 @@ async function insertPokemon() {
       result.push([pokemonInfo , pokemonDataJSON[pokemonInfo]]); // mostramos 
     }
 
-    console.table(result); //! only for development
+    // console.table(result); //! Mostramos la tabla
 
     //Que información vamos a consualtar de API
 
@@ -36,11 +36,11 @@ async function insertPokemon() {
 
     //Imagen a consultar - Espalada
     const pokemonImageBack = document.createElement('img');
-    pokemonImage.src = result[14][1].back_shiny; //Imagen que nos muestra - Indicamos en camino
+    pokemonImage.src = result[14][1].front_shiny; //Imagen que nos muestra - Indicamos en camino
 
     //Nombre de pokemon e ID
     const pokemonName = document.createElement('h2'); // lponemos sobre un h2
-    pokemonName.innerText = `Name: ${result[10][1]} - ID: ${result[6][1]}`; // Mostramos nombre  y ID del pokemon
+    pokemonName.innerText = `Name: ${result[10][1]}  ID: ${result[6][1]}`; // Mostramos nombre  y ID del pokemon
 
     //Tipo de pokemon
     const pokemonType = document.createElement('h2');
@@ -91,7 +91,7 @@ async function insertPokemon() {
     appNode.append(...allItems); // Que vamos a mostar 
 
   } catch (error) {
-    alert("That pokemon isn't available. Try againt with another one!"); //error de busqueda
+    alert("Vuelve a interlo Maestro Pokémon."); //error de busqueda
   }
 }
 

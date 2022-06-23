@@ -36,7 +36,7 @@ async function insertPokemon() {
 
     //Imagen a consultar - Espalada
     const pokemonImageBack = document.createElement('img');
-    pokemonImage.src = result[14][1].back_shiny; //Imagen que nos muestra - Indicamos en camino
+    pokemonImage.src = result[14][1].front_shiny; //Imagen que nos muestra - Indicamos en camino
 
     //Nombre de pokemon e ID
     const pokemonName = document.createElement('h2'); // lponemos sobre un h2
@@ -91,7 +91,7 @@ async function insertPokemon() {
     appNode.append(...allItems); // Que vamos a mostar 
 
   } catch (error) {
-    alert("That pokemon isn't available. Try againt with another one!"); //error de busqueda
+    alert("Vuelve a interlo Maestro Pokémon."); //error de busqueda
   }
 }
 

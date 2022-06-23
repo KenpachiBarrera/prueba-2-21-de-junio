@@ -1,0 +1,23 @@
+{
+  "name": "prueba-2-21-de-junio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenpachiBarrera/prueba-2-21-de-junio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenpachiBarrera/prueba-2-21-de-junio/issues"
+  },
+  "homepage": "https://github.com/KenpachiBarrera/prueba-2-21-de-junio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

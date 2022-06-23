@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer Pókedex</title>
+    <link rel="stylesheet" type="text/css" href="/src/Pokedex/styles.css" media="screen" />  
+  </head>
+  <body>
+
+    
+<!-- Background Rojo -->
+    <div class="colorRojo" id="dexbody">
+ 
+<!-- Botones de busqueda -->
+<section class="inputFields">
+    <input type="text" class="inputBusqueda" name="searchBox" id="pokemonName" placeholder="Ingresa el Pokémon o ID">
+        <div class="buttons">
+      
+            <!-- Boton de busqueda -->
+            <div class="buttonBusqueda" id="searchPokemon"></div>
+            <div class="buttonBorrar" id="clearPokemon"></div>
+        </div>
+</section>
+
+<!-- Fondo de color gris -->
+      <div class="colorGris">
+
+<!-- Fondo de color blanco -->
+        <div class="colorBlanco">
+
+<!--Mostramos el consumo de API-->
+            <section class="pokemonData" id="app"></section>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/Pokedex/app.js"></script>
+
+    <div class="pokedexVector"></div>
+
+  </body>
+</html>
